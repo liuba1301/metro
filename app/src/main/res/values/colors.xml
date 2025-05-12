@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="maroon">#800000</color>
+    <color name="maroon_dark">#660000</color>
+    <color name="maroon_light">#B22222</color>
+    <color name="background">#FFFFFF</color>
+    <color name="on_maroon">#FFFFFF</color>
+    <color name="on_white">#800000</color>
+</resources>

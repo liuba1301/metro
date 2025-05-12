@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Изменение статуса сотрудника"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewEmployeeNameDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Петров Петр Петрович"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonAvailable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Доступен (работает)" />
+
+        <RadioButton
+            android:id="@+id/radioButtonVacation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Отпуск" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSickLeave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Больничный" />
+
+        <RadioButton
+            android:id="@+id/radioButtonEmergency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Чрезвычайная ситуация" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Дополнительная информация (необязательно):"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextStatusDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Причина отсутствия, подробности ЧС и т.д."
+        android:inputType="textMultiLine"
+        android:minLines="2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonCancelStatus"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:text="Отмена" />
+
+        <Button
+            android:id="@+id/buttonSaveStatus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="Сохранить" />
+    </LinearLayout>
+</LinearLayout> 

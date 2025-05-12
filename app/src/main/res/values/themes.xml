@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Praktika3curs" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/maroon</item>
+        <item name="colorPrimaryVariant">@color/maroon_dark</item>
+        <item name="colorOnPrimary">@color/on_maroon</item>
+        <item name="colorSecondary">@color/maroon_light</item>
+        <item name="colorOnSecondary">@color/on_maroon</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/on_white</item>
+        <item name="colorSurface">@color/background</item>
+        <item name="colorOnSurface">@color/on_white</item>
+    </style>
+
+    <style name="Theme.Praktika3curs" parent="Base.Theme.Praktika3curs" />
+</resources>
